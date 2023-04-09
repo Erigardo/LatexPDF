@@ -1,8 +1,18 @@
 \begin{thebibliography}{1}
 
-\bibitem{Dirac1953888}
-"R.P.M. Dirac".
-\newblock "the lorentz transformations and absolute time".
-\newblock {\em "Physica"}, "1953".
+\bibitem{Breiman2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock {\em Machine Learning}, 2001.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock Deep learning.
+\newblock {\em Book in preparation for MIT Press}, 2016.
+
+\bibitem{Krizhevsky2012}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock {\em Advances in Neural Information Processing Systems}, 2012.
 
 \end{thebibliography}

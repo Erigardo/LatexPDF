@@ -1,23 +1,37 @@
-%! Author = wingardo
-%! Date = 01.01.2023
+%! Author = Alexander Lesnov
+%! Date = 09.04.2023
 
 % Preamble
 \documentclass[11pt]{article}
 
 % Packages
 \usepackage{amsmath}
+\usepackage{tikz}
+% package for figures
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[english,russian]{babel} % for cyrillic text
 
-% Document
 \begin{document}
+%
+    \input{introduction}\newpage
+%
+    \input{literature.tex}\newpage
+%
+    \input{data_preparation}\newpage
+%
+    \input{machine_learning_techniques}\newpage
+%
+    \input{applying_model}\newpage
+%
+    \input{model_evaluation}\newpage
+%
+    \input{the_future_of_ml}\newpage
 
-    \section{Introduction}\label{sec:introduction}
-
-    \section{Methodology}\label{sec:methodology}
-
-    Hello!
-    How are you?
     I am referring this section~\ref{sec:introduction}
-    New line~\cite{Dirac1953888}
+    New line~\cite{Goodfellow-et-al-2016}
+    New line~\cite{Krizhevsky2012}
+    New line~\cite{Breiman2001}
 
 
     \bibliography{main}
